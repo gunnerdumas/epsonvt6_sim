@@ -16,7 +16,8 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/base_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/base_link.STL"/>
+        <!-- package://robot_arm_6axis/meshes/base_link.STL"-->
       </geometry>
       <material name="">
         <color rgba="0.79216 0.81961 0.93333 1"/>
@@ -25,7 +26,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/base_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/base_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -38,7 +39,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/swivel_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/swivel_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.79216 0.81961 0.93333 1"/>
@@ -47,7 +48,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/swivel_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/swivel_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -66,7 +67,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/swivel_arm_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/swivel_arm_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -75,7 +76,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/swivel_arm_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/swivel_arm_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -94,7 +95,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/wrist_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/wrist_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -103,7 +104,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/wrist_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/wrist_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -122,7 +123,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/hand_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/hand_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -131,7 +132,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/hand_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/hand_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -150,7 +151,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/finger_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/finger_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -159,7 +160,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/finger_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/finger_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -178,7 +179,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/tip_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/tip_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -187,7 +188,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_arm_6axis/meshes/tip_link.STL"/>
+        <mesh filename="file:///home/gman/ros2_ws/install/robot_arm_6axis/share/robot_arm_6axis/meshes/tip_link.STL"/>
       </geometry>
     </collision>
   </link>

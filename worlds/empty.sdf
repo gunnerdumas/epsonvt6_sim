@@ -46,8 +46,8 @@
         <play_pause>true</play_pause>
         <step>true</step>
         <start_paused>true</start_paused>
-        <service>/world/world_demo/control</service>
-        <stats_topic>/world/world_demo/stats</stats_topic>
+        <service>/world/epson_world/control</service>
+        <stats_topic>/world/epson_world/stats</stats_topic>
     </plugin>
 
                 <gui fullscreen="0">
