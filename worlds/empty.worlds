@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+    <world name="default">
+
+        <!-- physics-->
+        <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"></plugin>
+        
+        <!-- handle user commands-->
+        <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"></plugin>
+
+        <!-- scecen updates-->
+        <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"></plugin>
+    
+        <!-- gravity-->
+        <gravity>0.0 0.0 -9.8</gravity>
+    
+
+        <include>
+            <uri>
+                https://fuel.gazebosim.org/1.0/OpenRobotics/models/Groud Plane
+            </uri>
+        </include>
+    </world>
+</sdf>
