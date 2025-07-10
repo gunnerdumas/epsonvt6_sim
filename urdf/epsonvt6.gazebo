@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
+<!-- 
+Gunner Cook-Dumas
+7/10/25
+-->
 <robot>
     <gazebo>
         <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
