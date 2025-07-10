@@ -50,7 +50,7 @@
         <stats_topic>/world/epson_world/stats</stats_topic>
     </plugin>
 
-                <gui fullscreen="0">
+    <gui fullscreen="0">
         <!-- 3D scene -->
         <plugin filename="MinimalScene" name="3D View">
             <gz-gui>

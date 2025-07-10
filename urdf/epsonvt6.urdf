@@ -198,10 +198,5 @@
     <child link="tip_link"/>
     <axis xyz="1 0 0"/>
   </joint>
-  <gazebo>
-    <plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
-      <robotNamespace>/robot_arm_6axis</robotNamespace>
-      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
-    </plugin>
-  </gazebo>
+
 </robot>
