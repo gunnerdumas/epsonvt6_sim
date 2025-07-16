@@ -11,7 +11,7 @@ import xacro
 
 def generate_launch_description():
     ld=LaunchDescription()
-    pkgPath = FindPackageShare(package='robot_arm_6axis').find('robot_arm_6axis')
+    pkgPath = FindPackageShare(package='epsonvt6_sim').find('epsonvt6_sim')
     urdf_path=os.path.join(pkgPath, 'urdf/epsonvt6.urdf.xacro')
     rviz_config_path=os.path.join(pkgPath, 'rviz/config.rviz')
     robot_description_config = xacro.process_file(urdf_path)

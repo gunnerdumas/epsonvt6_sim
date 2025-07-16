@@ -29,7 +29,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/base_link.STL" /> <!-- package://robot_arm_6axis/meshes/base_link.STL"-->
+          filename="file://$(find epsonvt6_sim)/meshes/base_link.STL" /> <!-- package://epsonvt6_sim/meshes/base_link.STL"-->
       </geometry>
       <material
         name="">
@@ -43,7 +43,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/base_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -69,7 +69,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/swivel_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/swivel_link.STL" />
       </geometry>
       <material
         name="">
@@ -83,7 +83,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/swivel_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/swivel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -122,7 +122,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/swivel_arm_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/swivel_arm_link.STL" />
       </geometry>
       <material
         name="">
@@ -136,7 +136,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/swivel_arm_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/swivel_arm_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -175,7 +175,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/wrist_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/wrist_link.STL" />
       </geometry>
       <material
         name="">
@@ -189,7 +189,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/wrist_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/wrist_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -228,7 +228,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/hand_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/hand_link.STL" />
       </geometry>
       <material
         name="">
@@ -242,7 +242,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/hand_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/hand_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -281,7 +281,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/finger_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/finger_link.STL" />
       </geometry>
       <material
         name="">
@@ -295,7 +295,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/finger_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/finger_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -334,7 +334,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/tip_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/tip_link.STL" />
       </geometry>
       <material
         name="">
@@ -348,7 +348,7 @@ Gunner Cook-Dumas
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find robot_arm_6axis)/meshes/tip_link.STL" />
+          filename="file://$(find epsonvt6_sim)/meshes/tip_link.STL" />
       </geometry>
     </collision>
   </link>

@@ -16,8 +16,8 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    pkgPath = FindPackageShare(package='robot_arm_6axis').find('robot_arm_6axis')
-    package_name='robot_arm_6axis'
+    pkgPath = FindPackageShare(package='epsonvt6_sim').find('epsonvt6_sim')
+    package_name='epsonvt6_sim'
     world=os.path.join(pkgPath, 'worlds/empty.sdf')
     robot_model=os.path.join(pkgPath, 'urdf/epsonvt6.urdf')
 

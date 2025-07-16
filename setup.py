@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 import os
 from glob import glob
 
-package_name = 'robot_arm_6axis'
+package_name = 'epsonvt6_sim'
 
 setup(
     name=package_name,
@@ -22,8 +22,8 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='gman',
-    maintainer_email='gman@todo.todo',
-    description='TODO: Package description',
+    maintainer_email='gcookdumas@umassd.edu',
+    description='simulation software',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={

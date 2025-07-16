@@ -6,7 +6,7 @@ Gunner Cook-Dumas
 <robot>
     <gazebo>
         <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
-        <robotNamespace>/robot_arm_6axis</robotNamespace>
+        <robotNamespace>/epsonvt6_sim</robotNamespace>
         <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
         </plugin>
     </gazebo>
