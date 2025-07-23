@@ -28,6 +28,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'epson_sim =epsonvt6_sim.epson_joint_state:main'
         
         ],
     },

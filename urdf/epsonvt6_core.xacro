@@ -7,6 +7,16 @@ Gunner Cook-Dumas
 7/10/25
 -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <link name="world">
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+  </link>
+  <joint name="world_joint" type="fixed">
+    <origin xyz="0 0 0.3" rpy="0 0 0"/>
+    <parent link="world"/>
+    <child link="base_link"/>
+  </joint>
+
+
   <link
     name="base_link">
     <inertial>

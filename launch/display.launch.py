@@ -43,15 +43,21 @@ def generate_launch_description():
     # params = [{'use_sim_time': use_sim_time,'robot_description': ParameterValue(Command(['xacro ',urdf_model]), value_type=str)}]
 
     
-    rjpg=Node(condition=IfCondition(gui),
-             package='joint_state_publisher_gui',
-             executable='joint_state_publisher_gui',
-             name='joint_state_publisher_gui')
+    # use this node and disapble rjps if you want to use the joint state gui
+    # rjpg=Node(condition=IfCondition(gui),
+    #          package='joint_state_publisher_gui',
+    #          executable='joint_state_publisher_gui',
+    #          name='joint_state_publisher_gui')
     
     rjp=Node(condition=UnlessCondition(gui),
              package='joint_state_publisher',
              executable='joint_state_publisher',
              name='joint_state_publisher')
+
+    # starts the subscriber to the epson_vt6 pulbisher
+    rjps=Node(package='epsonvt6_sim',
+             executable='epson_sim',
+             name='epson_joint_publisher')
     
     rsp=Node(condition=IfCondition(use_robot_state_pub),
              package='robot_state_publisher',
@@ -67,6 +73,7 @@ def generate_launch_description():
               output='screen',
               arguments=["-d", rviz_config_file]
               )
+    
 
     ld.add_action(declare_urdf_path)
     ld.add_action(declare_use_robot_state_pub)
@@ -76,7 +83,8 @@ def generate_launch_description():
     ld.add_action(delcare_rviz_config_file)
 
     ld.add_action(rsp)
-    ld.add_action(rjpg)
+    # ld.add_action(rjpg)
+    ld.add_action(rjps)
     ld.add_action(rjp)
     ld.add_action(rviz)
 
