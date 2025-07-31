@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="VT6L_901S_RevC_urdf.SLDASM">
+  <link
+    name="joint1">
+    <inertial>
+      <origin
+        xyz="-0.0446671314315955 -0.00556205556490095 -0.167552196384977"
+        rpy="0 0 0" />
+      <mass
+        value="11.2344838235123" />
+      <inertia
+        ixx="0.0913659604831761"
+        ixy="0.000118499200269473"
+        ixz="-0.00508215935217067"
+        iyy="0.121762242453162"
+        iyz="-0.000973032998722846"
+        izz="0.0896988515422454" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="joint2">
+    <inertial>
+      <origin
+        xyz="0.0588087363372434 0.00119432830507412 0.109693056413423"
+        rpy="0 0 0" />
+      <mass
+        value="5.40803477945971" />
+      <inertia
+        ixx="0.0279027898008299"
+        ixy="0.000114115206951667"
+        ixz="-0.00955232245914015"
+        iyy="0.0351715843768097"
+        iyz="-0.000102285372771614"
+        izz="0.0288749684893834" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2"
+    type="revolute">
+    <origin
+      xyz="0 -0.000837587920865562 -0.0239853798484581"
+      rpy="-0.0349065850401157 0 0" />
+    <parent
+      link="joint1" />
+    <child
+      link="joint2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.9671"
+      upper="2.9671"
+      effort="30"
+      velocity="30" />
+  </joint>
+  <link
+    name="joint3">
+    <inertial>
+      <origin
+        xyz="-0.0185051285246405 0.0100310897930456 0.20848853852042"
+        rpy="0 0 0" />
+      <mass
+        value="1.67529418946526" />
+      <inertia
+        ixx="0.0507941794861851"
+        ixy="0.000730302175825956"
+        ixz="0.000302256342350336"
+        iyy="0.0504029422662946"
+        iyz="2.07822625880957E-05"
+        izz="0.00701923736777985" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="revolute">
+    <origin
+      xyz="0.100000000051391 -0.089999999942899 0.149"
+      rpy="0 0 0" />
+    <parent
+      link="joint2" />
+    <child
+      link="joint3" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-2.7925"
+      upper="1.1345"
+      effort="30"
+      velocity="30" />
+  </joint>
+  <link
+    name="joint4">
+    <inertial>
+      <origin
+        xyz="0.021483 0.064127 1.3022E-06"
+        rpy="0 0 0" />
+      <mass
+        value="1.6959" />
+      <inertia
+        ixx="0.0039934"
+        ixy="-0.00062093"
+        ixz="8.0006E-08"
+        iyy="0.0051186"
+        iyz="-2.2527E-07"
+        izz="0.0056931" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4"
+    type="revolute">
+    <origin
+      xyz="0 0.0216 0.42"
+      rpy="0 0 0" />
+    <parent
+      link="joint3" />
+    <child
+      link="joint4" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-0.89012"
+      upper="3.3161"
+      effort="30"
+      velocity="30" />
+  </joint>
+  <link
+    name="joint5">
+    <inertial>
+      <origin
+        xyz="0.139593875929977 -0.0246708541903937 5.31294167105401E-06"
+        rpy="0 0 0" />
+      <mass
+        value="3.66276782700147" />
+      <inertia
+        ixx="0.0106406641258331"
+        ixy="0.00669200808710079"
+        ixz="2.08535425596316E-06"
+        iyy="0.0281948606164287"
+        iyz="-4.96579237915889E-07"
+        izz="0.031603283969657" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint5"
+    type="revolute">
+    <origin
+      xyz="0.0905 0.06724 0"
+      rpy="0 0 0" />
+    <parent
+      link="joint4" />
+    <child
+      link="joint5" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-3.4907"
+      upper="3.4907"
+      effort="30"
+      velocity="30" />
+  </joint>
+  <link
+    name="joint6">
+    <inertial>
+      <origin
+        xyz="0.0169336580467011 0.0354511451193188 9.15129902445688E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.59831386207427" />
+      <inertia
+        ixx="0.000779390408571983"
+        ixy="-0.000246549727904644"
+        ixz="-6.68846116469282E-08"
+        iyy="0.0010025872639828"
+        iyz="2.56605352172483E-08"
+        izz="0.000993234046313843" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint6"
+    type="revolute">
+    <origin
+      xyz="0.3095 -0.0560000000000022 0"
+      rpy="0 0 0" />
+    <parent
+      link="joint5" />
+    <child
+      link="joint6" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-2.1817"
+      upper="2.1817"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="joint7">
+    <inertial>
+      <origin
+        xyz="-0.00423168170139776 4.6619876124766E-06 1.01786927347303E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0516677260625017" />
+      <inertia
+        ixx="4.64734351994377E-05"
+        ixy="2.32934899638387E-15"
+        ixz="-3.79244342400184E-10"
+        iyy="2.43448563893672E-05"
+        iyz="1.49521699734777E-10"
+        izz="2.44215854406383E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint7.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VT6L_901S_RevC_urdf.SLDASM/meshes/joint7.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint7"
+    type="continuous">
+    <origin
+      xyz="0.078 0.055495 0"
+      rpy="0 0 0" />
+    <parent
+      link="joint6" />
+    <child
+      link="joint7" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+</robot>
